@@ -2,6 +2,9 @@
 ## functions do
 
 ## Write a short comment describing this function
+## This function takes a matrix and makes a copy of it to 
+## hold the cached matrix.
+
 
 makeCacheMatrix <- function(x = matrix()) {
 
