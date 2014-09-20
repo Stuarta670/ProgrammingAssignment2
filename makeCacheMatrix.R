@@ -1,3 +1,8 @@
+#This function creates a matrix that is used to cache the inverse of a matrix
+# x is an invertible matrix argument
+# inv is a global variable used to hold cached matrix of argument x.
+
+
 makeCacheMatrix <- function(x = numeric()) {
         
         inv <- NULL
