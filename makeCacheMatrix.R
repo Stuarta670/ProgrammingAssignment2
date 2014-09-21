@@ -14,6 +14,7 @@ makeCacheMatrix <- function(x = numeric()) {
         get <- function() x
         setinvrs <- function(n) inv <<- n
         getinvrs <- function() inv
+        #List of functions used by the defining function
         list(set = set, get = get, setinvrs = setinvrs, getinvrs = getinvrs)
         
 }
