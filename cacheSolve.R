@@ -1,7 +1,7 @@
 #This function is used to either compute the inverse of a matrix or retrieve the 
 #cached value of a previously computed matrix
 #inv is the global variable that holds the cached value if it is present
-
+ 
 
 cacheSolve <- function(x, ...) {
         inv <- x$getinvrs()

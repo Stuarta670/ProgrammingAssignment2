@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = numeric()) {
         }
         get <- function() x
         setinvrs <- function(n) inv <<- n #Set global variable to inverse of matrix
-        getinvrs <- function() inv    
+        getinvrs <- function() inv        #Return the global variable
         #List of functions used by the defining function
         list(set = set, get = get, setinvrs = setinvrs, getinvrs = getinvrs)
         
